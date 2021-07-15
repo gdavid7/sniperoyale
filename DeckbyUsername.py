@@ -42,6 +42,3 @@ def findByUsername(username,clan):
                 splittext = srccards.split('?')
                 cardslist.append(splittext[0])
             return cardslist
-
-#Calls the function
-print(findByUsername("bob the greater","trade"))
